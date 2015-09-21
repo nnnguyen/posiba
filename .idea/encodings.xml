@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/js/app/controllers/mapController.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/js/app/controllers/question3-map.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/js/app/controllers/userController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/js/app/dataServices/userDataService.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/js/vendor/knockout-3.3.0.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/views/map.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/views/question3-map.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/views/user.html" charset="UTF-8" />
   </component>
 </project>

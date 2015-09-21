@@ -1,5 +1,5 @@
 // create the module "Posiba"
-var posiba = angular.module("posiba", ['ngRoute']);
+var posiba = angular.module("posiba", ['ngRoute', 'google-maps']);
 // configure our routes
 posiba.config(function($routeProvider) {
 		$routeProvider

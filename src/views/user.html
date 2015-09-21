@@ -2,3 +2,39 @@
 	<h1>Users</h1>
 	<p>{{ message }}</p>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <div>{{users.length}}</div>
+        <div id="table-container" class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Skills</th>
+                    <th>Gender</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="user in users">
+                    <td>{{ user.userName }}</td>
+                    <td>{{ user.email }}</td>
+                    <td>
+                           <span ng ng-repeat="skill in user.skills">
+                               {{ skill }}
+                           </span>
+                    </td>
+                    <td>{{ user.getGender() }}</td>
+                    <td>
+                        <button class="btn" ng-click="editUser(user.userid)">
+                            <span class="glyphicon glyphicon-pencil"></span>  Edit
+                        </button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
