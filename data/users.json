@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "userName": "Nguyen Nguyen Nhat",
+      "gender": 1,
+      "email": "gerald.nnnguyen@gmail.com",
+      "skills": [
+        "C#", "Java", "Angular JS", "PHP", "CSS 3", "HTML 5"
+      ]
+    },
+    {
+      "userId": 2,
+      "userName": "Elizabeth Gilbert",
+      "gender": 0,
+      "email": "e.gilbert@gmail.com",
+      "skills": [
+        "C#", "PHP", "Java"
+      ]
+    },
+    {
+      "userId": 3,
+      "userName": "Ron Cultin",
+      "gender": 1,
+      "email": "roncultin@gmail.com",
+      "skills": []
+    },
+    {
+      "userId": 4,
+      "userName": "Bill Clinton",
+      "gender": 1,
+      "email": "billclinton@gmail.com",
+      "skills": [
+        "C#", "CSS 3", "HTML 5"
+      ]
+    },
+    {
+      "userId": 5,
+      "userName": "Helen John",
+      "gender": 0,
+      "email": "helenjohngmail.com",
+      "skills": []
+    }
+  ]
+}
