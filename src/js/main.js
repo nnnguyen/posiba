@@ -19,4 +19,9 @@ posiba.config(function($routeProvider) {
 				templateUrl : 'views/user.html',
 				controller  : 'userController'
 			})
+
+			.when('/chart', {
+				templateUrl : 'views/chart.html',
+				controller  : 'chartController'
+			})
 	});

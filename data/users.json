@@ -5,6 +5,7 @@
       "userName": "Nguyen Nguyen Nhat",
       "gender": 1,
       "email": "gerald.nnnguyen@gmail.com",
+      "website": "http://www.google.com",
       "skills": [
         "C#", "Java", "Angular JS", "PHP", "CSS 3", "HTML 5"
       ]
@@ -14,6 +15,7 @@
       "userName": "Elizabeth Gilbert",
       "gender": 0,
       "email": "e.gilbert@gmail.com",
+      "website": "http://www.google.com",
       "skills": [
         "C#", "PHP", "Java"
       ]
@@ -23,6 +25,7 @@
       "userName": "Ron Cultin",
       "gender": 1,
       "email": "roncultin@gmail.com",
+      "website": "http://www.google.com",
       "skills": []
     },
     {
@@ -30,6 +33,7 @@
       "userName": "Bill Clinton",
       "gender": 1,
       "email": "billclinton@gmail.com",
+      "website": "http://www.google.com",
       "skills": [
         "C#", "CSS 3", "HTML 5"
       ]
@@ -39,6 +43,7 @@
       "userName": "Helen John",
       "gender": 0,
       "email": "helenjohngmail.com",
+      "website": "http://www.google.com",
       "skills": []
     }
   ]

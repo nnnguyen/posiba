@@ -5,6 +5,7 @@ var User = function(){
   self.userName = null;
   self.gender = 1;
   self.email = null;
+  self.website = null;
   self.skills = [];
 
   return self;
@@ -17,7 +18,17 @@ User.prototype = function(){
     return self.gender === 1 ? "Male" : "Female";
   }
 
+  function displaySkills(){
+    var self = this;
+    if(self.skills.length > 0) {
+      return self.skills.join(",");
+    }
+
+    return "";
+  }
+
   return {
-    getGender: getGender
+    getGender: getGender,
+    displaySkills: displaySkills
   };
 }();
